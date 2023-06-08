@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
     
 ]
 
@@ -152,3 +153,7 @@ EMAIL_HOST_USER = 'RonTesting101@outlook.com'
 EMAIL_HOST_PASSWORD = '1qaZxsw@3edc'
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'RonTesting101@outlook.com'
+
+
+SECURE_CROSS_ORIGIN_OPENER_POLICY = 'same-origin-allow-popups'
+
